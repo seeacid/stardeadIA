@@ -45,7 +45,7 @@ export default function ContactoPage() {
     };
 
     return (
-        <div className="pt-20 md:pt-24 pb-16 min-h-screen">
+        <div className="pt-24 md:pt-32 pb-16 min-h-screen">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="text-center mb-12">
