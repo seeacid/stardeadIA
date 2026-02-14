@@ -74,7 +74,7 @@ export default function TiendaPage() {
     const hasActiveFilters = filters.category || (filters.sizes && filters.sizes.length > 0) || (filters.colors && filters.colors.length > 0) || filters.sortBy || search;
 
     return (
-        <div className="pt-24 md:pt-32 pb-16 min-h-screen">
+        <div className="pb-16 min-h-screen">
             {/* Page Header */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
                 <h1 className="font-heading text-3xl md:text-4xl font-bold tracking-wider uppercase text-gradient">
@@ -88,7 +88,7 @@ export default function TiendaPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Search & Controls Bar */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                    {/* Search */}
+                    {/* ... (keep search bar as is, assumed unchanged) */}
                     <div className="relative flex-1">
                         <svg
                             width="18"
@@ -167,7 +167,7 @@ export default function TiendaPage() {
                         )}
                         <div
                             className={cn(
-                                'bg-surface border border-border rounded-xl p-6 space-y-6',
+                                'bg-surface border border-border rounded-xl p-6 space-y-10', // Changed space-y-6 to space-y-10
                                 isFiltersOpen &&
                                 'fixed top-0 left-0 bottom-0 w-72 z-50 rounded-none overflow-y-auto lg:relative lg:w-64 lg:rounded-xl'
                             )}
@@ -188,7 +188,7 @@ export default function TiendaPage() {
 
                             {/* Categories */}
                             <div>
-                                <h3 className="font-heading text-xs tracking-wider uppercase text-text-secondary mb-3">
+                                <h3 className="font-heading text-xs tracking-wider uppercase text-text-secondary mb-4 pb-2 border-b border-border/50">
                                     Categorías
                                 </h3>
                                 <div className="space-y-2">
@@ -222,7 +222,7 @@ export default function TiendaPage() {
 
                             {/* Sizes */}
                             <div>
-                                <h3 className="font-heading text-xs tracking-wider uppercase text-text-secondary mb-3">
+                                <h3 className="font-heading text-xs tracking-wider uppercase text-text-secondary mb-4 pb-2 border-b border-border/50">
                                     Talles
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
@@ -245,7 +245,7 @@ export default function TiendaPage() {
 
                             {/* Colors */}
                             <div>
-                                <h3 className="font-heading text-xs tracking-wider uppercase text-text-secondary mb-3">
+                                <h3 className="font-heading text-xs tracking-wider uppercase text-text-secondary mb-4 pb-2 border-b border-border/50">
                                     Colores
                                 </h3>
                                 <div className="space-y-2">

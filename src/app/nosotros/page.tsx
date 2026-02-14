@@ -62,7 +62,7 @@ const timeline = [
 
 export default function NosotrosPage() {
     return (
-        <div className="pt-24 md:pt-32 pb-16 min-h-screen">
+        <div className="pb-16 min-h-screen">
             {/* Hero */}
             <section className="relative py-20 md:py-32 overflow-hidden noise-overlay">
                 <div className="absolute inset-0 bg-gradient-to-b from-accent-violet/5 via-transparent to-void" />

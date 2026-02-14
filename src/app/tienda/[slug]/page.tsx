@@ -97,7 +97,7 @@ export default function ProductDetailPage() {
         );
 
     return (
-        <div className="pt-20 md:pt-24 pb-16 min-h-screen">
+        <div className="pb-16 min-h-screen">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Breadcrumb */}
                 <nav className="mb-6 text-sm text-text-muted">
@@ -348,7 +348,7 @@ export default function ProductDetailPage() {
                             )}
                             {product.care && product.care.length > 0 && (
                                 <div>
-                                    <h3 className="text-sm font-medium text-text-secondary uppercase tracking-wider mb-1">
+                                    <h3 className="text-sm font-medium text-text-secondary uppercase tracking-wider mb-2">
                                         Cuidados
                                     </h3>
                                     <ul className="text-text-secondary text-sm space-y-1">
@@ -361,6 +361,29 @@ export default function ProductDetailPage() {
                                     </ul>
                                 </div>
                             )}
+
+                            {/* Shipping & Returns - Marketing Psychology: Removing friction */}
+                            <div className="pt-4 border-t border-border/50 space-y-3">
+                                <div className="flex items-start gap-3">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent-violet mt-0.5">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                    <div>
+                                        <h4 className="text-sm font-bold text-text-primary uppercase tracking-wide">Envío Gratis</h4>
+                                        <p className="text-xs text-text-secondary mt-0.5">En compras superiores a $100.000 a todo el país.</p>
+                                    </div>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-accent-violet mt-0.5">
+                                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                        <path d="M3 3v5h5" />
+                                    </svg>
+                                    <div>
+                                        <h4 className="text-sm font-bold text-text-primary uppercase tracking-wide">Cambios y Devoluciones</h4>
+                                        <p className="text-xs text-text-secondary mt-0.5">30 días para cambios. Tu satisfacción es nuestra prioridad.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

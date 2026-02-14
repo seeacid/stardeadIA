@@ -67,10 +67,7 @@ export default function RootLayout({
       <body className="bg-void text-text-primary font-body antialiased">
         <CartProvider>
           <Header />
-          <main className="min-h-screen">{children}</main>
-          import {Toaster} from 'sonner';
-
-          // ... inside RootLayout function
+          <main className="min-h-screen pt-28 md:pt-36">{children}</main>
           <Footer />
           <Toaster
             position="bottom-right"

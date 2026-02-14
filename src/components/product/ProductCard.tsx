@@ -80,9 +80,6 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
 
                         {/* Quick View Overlay */}
                         <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                            import {Button} from '@/components/ui/Button';
-
-                            // ... inside component
                             <Button
                                 className="w-full bg-accent-violet/90 hover:bg-accent-violet backdrop-blur-sm"
                             >
