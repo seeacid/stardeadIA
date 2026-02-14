@@ -39,42 +39,95 @@
    ============================================ */
 
 @keyframes glow-pulse {
-  0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.6), 0 0 80px rgba(139, 92, 246, 0.2); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.6), 0 0 80px rgba(139, 92, 246, 0.2);
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes glitch {
-  0% { transform: translate(0); }
-  20% { transform: translate(-2px, 2px); }
-  40% { transform: translate(-2px, -2px); }
-  60% { transform: translate(2px, 2px); }
-  80% { transform: translate(2px, -2px); }
-  100% { transform: translate(0); }
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 
 @keyframes scan-line {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(100vh); }
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100vh);
+  }
 }
 
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slide-up {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slide-in-right {
-  from { transform: translateX(100%); }
-  to { transform: translateX(0); }
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 @keyframes text-glitch {
@@ -82,22 +135,27 @@
     text-shadow: 2px 0 #EC4899, -2px 0 #06B6D4;
     transform: translate(0);
   }
+
   20% {
     text-shadow: -2px 0 #EC4899, 2px 0 #06B6D4;
     transform: translate(2px, -1px);
   }
+
   40% {
     text-shadow: 2px 0 #EC4899, -2px 0 #06B6D4;
     transform: translate(-1px, 1px);
   }
+
   60% {
     text-shadow: -2px 0 #EC4899, 2px 0 #06B6D4;
     transform: translate(1px, 1px);
   }
+
   80% {
     text-shadow: 2px 0 #EC4899, -2px 0 #06B6D4;
     transform: translate(-2px, -1px);
   }
+
   100% {
     text-shadow: 2px 0 #EC4899, -2px 0 #06B6D4;
     transform: translate(0);
@@ -105,16 +163,47 @@
 }
 
 @keyframes noise-bg {
-  0%, 100% { background-position: 0 0; }
-  10% { background-position: -5% -10%; }
-  20% { background-position: -15% 5%; }
-  30% { background-position: 7% -25%; }
-  40% { background-position: -5% 25%; }
-  50% { background-position: -15% 10%; }
-  60% { background-position: 15% 0%; }
-  70% { background-position: 0% 15%; }
-  80% { background-position: 3% 35%; }
-  90% { background-position: -10% 10%; }
+
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  10% {
+    background-position: -5% -10%;
+  }
+
+  20% {
+    background-position: -15% 5%;
+  }
+
+  30% {
+    background-position: 7% -25%;
+  }
+
+  40% {
+    background-position: -5% 25%;
+  }
+
+  50% {
+    background-position: -15% 10%;
+  }
+
+  60% {
+    background-position: 15% 0%;
+  }
+
+  70% {
+    background-position: 0% 15%;
+  }
+
+  80% {
+    background-position: 3% 35%;
+  }
+
+  90% {
+    background-position: -10% 10%;
+  }
 }
 
 /* ============================================
@@ -138,6 +227,18 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* Custom Scrollbar */
@@ -200,12 +301,12 @@ body {
 
 .glow-violet {
   box-shadow: 0 0 20px rgba(139, 92, 246, 0.3),
-              0 0 40px rgba(139, 92, 246, 0.1);
+    0 0 40px rgba(139, 92, 246, 0.1);
 }
 
 .glow-cyan {
   box-shadow: 0 0 20px rgba(6, 182, 212, 0.3),
-              0 0 40px rgba(6, 182, 212, 0.1);
+    0 0 40px rgba(6, 182, 212, 0.1);
 }
 
 .text-glitch-hover:hover {

@@ -6,20 +6,64 @@
     "description": "Remera oversize de algodón premium con estampa glitch 'Void Signal'. Corte relajado, costuras reforzadas y etiqueta Stardead bordada. El diseño se inspira en las señales digitales perdidas del futuro.",
     "price": 18500,
     "compareAtPrice": 22000,
-    "images": ["/images/products/void-signal-1.jpg", "/images/products/void-signal-2.jpg", "/images/products/void-signal-3.jpg"],
+    "images": [
+      "/images/products/void-signal-1.jpg",
+      "/images/products/void-signal-2.jpg",
+      "/images/products/void-signal-3.jpg"
+    ],
     "category": "remeras",
     "subcategory": "oversize",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 5, "sku": "VS-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 12, "sku": "VS-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 8, "sku": "VS-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 3, "sku": "VS-NEG-XL" },
-      { "size": "M", "color": "Gris Oscuro", "stock": 6, "sku": "VS-GRI-M" },
-      { "size": "L", "color": "Gris Oscuro", "stock": 4, "sku": "VS-GRI-L" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 5,
+        "sku": "VS-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 12,
+        "sku": "VS-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 8,
+        "sku": "VS-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 3,
+        "sku": "VS-NEG-XL"
+      },
+      {
+        "size": "M",
+        "color": "Gris Oscuro",
+        "stock": 6,
+        "sku": "VS-GRI-M"
+      },
+      {
+        "size": "L",
+        "color": "Gris Oscuro",
+        "stock": 4,
+        "sku": "VS-GRI-L"
+      }
     ],
-    "tags": ["nuevo", "oferta", "oversize"],
+    "tags": [
+      "nuevo",
+      "oferta",
+      "oversize",
+      "trending"
+    ],
     "composition": "100% Algodón peinado 24/1",
-    "care": ["Lavar a máquina a 30°C", "No usar blanqueador", "Secar a la sombra", "Planchar al revés"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar blanqueador",
+      "Secar a la sombra",
+      "Planchar al revés"
+    ],
     "featured": true,
     "isNew": true,
     "isLimitedEdition": false,
@@ -31,18 +75,48 @@
     "name": "Hoodie Dead Frequency",
     "description": "Hoodie heavyweight con capucha doble y bolsillo canguro. Estampa frontal 'Dead Frequency' con efecto distorsión. Interior afelpado ultra suave. La pieza definitiva para las noches urbanas.",
     "price": 35000,
-    "images": ["/images/products/dead-frequency-1.jpg", "/images/products/dead-frequency-2.jpg"],
+    "images": [
+      "/images/products/dead-frequency-1.jpg",
+      "/images/products/dead-frequency-2.jpg"
+    ],
     "category": "buzos",
     "subcategory": "hoodies",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 3, "sku": "DF-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 7, "sku": "DF-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 10, "sku": "DF-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 5, "sku": "DF-NEG-XL" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 3,
+        "sku": "DF-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 7,
+        "sku": "DF-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 10,
+        "sku": "DF-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 5,
+        "sku": "DF-NEG-XL"
+      }
     ],
-    "tags": ["nuevo", "bestseller"],
+    "tags": [
+      "nuevo",
+      "bestseller"
+    ],
     "composition": "80% Algodón, 20% Poliéster",
-    "care": ["Lavar a máquina a 30°C", "No usar secadora", "Planchar a temperatura baja"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar secadora",
+      "Planchar a temperatura baja"
+    ],
     "featured": true,
     "isNew": true,
     "isLimitedEdition": false,
@@ -54,18 +128,47 @@
     "name": "Remera Neon Decay",
     "description": "Remera regular fit con estampa 'Neon Decay' en serigrafía de alta definición. Los colores neón sobre base negra crean un contraste que captura la esencia del streetwear futurista.",
     "price": 15000,
-    "images": ["/images/products/neon-decay-1.jpg", "/images/products/neon-decay-2.jpg"],
+    "images": [
+      "/images/products/neon-decay-1.jpg",
+      "/images/products/neon-decay-2.jpg"
+    ],
     "category": "remeras",
     "subcategory": "regular",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 8, "sku": "ND-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 15, "sku": "ND-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 12, "sku": "ND-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 6, "sku": "ND-NEG-XL" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 8,
+        "sku": "ND-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 15,
+        "sku": "ND-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 12,
+        "sku": "ND-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 6,
+        "sku": "ND-NEG-XL"
+      }
     ],
-    "tags": ["bestseller"],
+    "tags": [
+      "bestseller"
+    ],
     "composition": "100% Algodón peinado 24/1",
-    "care": ["Lavar a máquina a 30°C", "No usar blanqueador", "Secar a la sombra"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar blanqueador",
+      "Secar a la sombra"
+    ],
     "featured": true,
     "isNew": false,
     "isLimitedEdition": false,
@@ -77,20 +180,59 @@
     "name": "Pantalón Cargo Phantom",
     "description": "Cargo wide leg con múltiples bolsillos utilitarios. Tela ripstop resistente con acabado lavado. Cintura elástica ajustable con cordón. Diseño funcional que no sacrifica estilo.",
     "price": 28000,
-    "images": ["/images/products/cargo-phantom-1.jpg", "/images/products/cargo-phantom-2.jpg", "/images/products/cargo-phantom-3.jpg"],
+    "images": [
+      "/images/products/cargo-phantom-1.jpg",
+      "/images/products/cargo-phantom-2.jpg",
+      "/images/products/cargo-phantom-3.jpg"
+    ],
     "category": "pantalones",
     "subcategory": "cargo",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 4, "sku": "CP-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 8, "sku": "CP-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 6, "sku": "CP-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 2, "sku": "CP-NEG-XL" },
-      { "size": "M", "color": "Verde Militar", "stock": 5, "sku": "CP-VER-M" },
-      { "size": "L", "color": "Verde Militar", "stock": 3, "sku": "CP-VER-L" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 4,
+        "sku": "CP-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 8,
+        "sku": "CP-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 6,
+        "sku": "CP-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 2,
+        "sku": "CP-NEG-XL"
+      },
+      {
+        "size": "M",
+        "color": "Verde Militar",
+        "stock": 5,
+        "sku": "CP-VER-M"
+      },
+      {
+        "size": "L",
+        "color": "Verde Militar",
+        "stock": 3,
+        "sku": "CP-VER-L"
+      }
     ],
-    "tags": ["nuevo"],
+    "tags": [
+      "nuevo"
+    ],
     "composition": "100% Algodón Ripstop",
-    "care": ["Lavar a máquina a 40°C", "Se puede usar secadora a baja temperatura"],
+    "care": [
+      "Lavar a máquina a 40°C",
+      "Se puede usar secadora a baja temperatura"
+    ],
     "featured": true,
     "isNew": true,
     "isLimitedEdition": false,
@@ -102,21 +244,66 @@
     "name": "Remera Stardead OG",
     "description": "La remera original de Stardead. Logo icónico 𖤐 en el pecho con tipografía futurista en la espalda. Simple, directa, sin rodeos. La base de todo.",
     "price": 14000,
-    "images": ["/images/products/stardead-og-1.jpg", "/images/products/stardead-og-2.jpg"],
+    "images": [
+      "/images/products/stardead-og-1.jpg",
+      "/images/products/stardead-og-2.jpg"
+    ],
     "category": "remeras",
     "subcategory": "regular",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 20, "sku": "OG-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 25, "sku": "OG-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 20, "sku": "OG-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 15, "sku": "OG-NEG-XL" },
-      { "size": "S", "color": "Blanco", "stock": 10, "sku": "OG-BLA-S" },
-      { "size": "M", "color": "Blanco", "stock": 12, "sku": "OG-BLA-M" },
-      { "size": "L", "color": "Blanco", "stock": 8, "sku": "OG-BLA-L" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 20,
+        "sku": "OG-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 25,
+        "sku": "OG-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 20,
+        "sku": "OG-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 15,
+        "sku": "OG-NEG-XL"
+      },
+      {
+        "size": "S",
+        "color": "Blanco",
+        "stock": 10,
+        "sku": "OG-BLA-S"
+      },
+      {
+        "size": "M",
+        "color": "Blanco",
+        "stock": 12,
+        "sku": "OG-BLA-M"
+      },
+      {
+        "size": "L",
+        "color": "Blanco",
+        "stock": 8,
+        "sku": "OG-BLA-L"
+      }
     ],
-    "tags": ["clásico", "bestseller"],
+    "tags": [
+      "clásico",
+      "bestseller"
+    ],
     "composition": "100% Algodón peinado 20/1",
-    "care": ["Lavar a máquina a 30°C", "No usar blanqueador", "Secar a la sombra"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar blanqueador",
+      "Secar a la sombra"
+    ],
     "featured": false,
     "isNew": false,
     "isLimitedEdition": false,
@@ -128,17 +315,41 @@
     "name": "Buzo Crewneck Glitch",
     "description": "Crewneck oversized con estampa all-over glitch pattern. Puños y cintura acanalados. Interior semi-afelpado. Para los que quieren hacer ruido visual sin decir una palabra.",
     "price": 29000,
-    "images": ["/images/products/crewneck-glitch-1.jpg", "/images/products/crewneck-glitch-2.jpg"],
+    "images": [
+      "/images/products/crewneck-glitch-1.jpg",
+      "/images/products/crewneck-glitch-2.jpg"
+    ],
     "category": "buzos",
     "subcategory": "crewneck",
     "variants": [
-      { "size": "M", "color": "Negro", "stock": 6, "sku": "CG-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 9, "sku": "CG-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 4, "sku": "CG-NEG-XL" }
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 6,
+        "sku": "CG-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 9,
+        "sku": "CG-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 4,
+        "sku": "CG-NEG-XL"
+      }
     ],
-    "tags": ["nuevo"],
+    "tags": [
+      "nuevo"
+    ],
     "composition": "80% Algodón, 20% Poliéster",
-    "care": ["Lavar a máquina a 30°C", "No usar secadora", "Planchar a temperatura baja"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar secadora",
+      "Planchar a temperatura baja"
+    ],
     "featured": true,
     "isNew": true,
     "isLimitedEdition": false,
@@ -150,17 +361,42 @@
     "name": "Remera Cyber Skull",
     "description": "Remera oversize con estampa de calavera cyberpunk en la espalda. Detalle de código binario en la manga. Edición limitada — cuando se acaba, se acaba.",
     "price": 19500,
-    "images": ["/images/products/cyber-skull-1.jpg", "/images/products/cyber-skull-2.jpg"],
+    "images": [
+      "/images/products/cyber-skull-1.jpg",
+      "/images/products/cyber-skull-2.jpg"
+    ],
     "category": "remeras",
     "subcategory": "oversize",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 2, "sku": "CS-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 3, "sku": "CS-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 1, "sku": "CS-NEG-L" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 2,
+        "sku": "CS-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 3,
+        "sku": "CS-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 1,
+        "sku": "CS-NEG-L"
+      }
     ],
-    "tags": ["edición limitada"],
+    "tags": [
+      "edición limitada"
+    ],
     "composition": "100% Algodón peinado 24/1",
-    "care": ["Lavar a máquina a 30°C", "No usar blanqueador", "Secar a la sombra", "Planchar al revés"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar blanqueador",
+      "Secar a la sombra",
+      "Planchar al revés"
+    ],
     "featured": true,
     "isNew": false,
     "isLimitedEdition": true,
@@ -172,18 +408,46 @@
     "name": "Jogger Static Noise",
     "description": "Jogger tapered con estampa sutil 'static noise' en el costado. Tela french terry liviana. Puños elásticos. Comodidad total sin perder el estilo Stardead.",
     "price": 24000,
-    "images": ["/images/products/static-noise-1.jpg", "/images/products/static-noise-2.jpg"],
+    "images": [
+      "/images/products/static-noise-1.jpg",
+      "/images/products/static-noise-2.jpg"
+    ],
     "category": "pantalones",
     "subcategory": "joggers",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 5, "sku": "SN-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 10, "sku": "SN-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 7, "sku": "SN-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 4, "sku": "SN-NEG-XL" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 5,
+        "sku": "SN-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 10,
+        "sku": "SN-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 7,
+        "sku": "SN-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 4,
+        "sku": "SN-NEG-XL"
+      }
     ],
-    "tags": ["nuevo"],
+    "tags": [
+      "nuevo"
+    ],
     "composition": "70% Algodón, 30% Poliéster French Terry",
-    "care": ["Lavar a máquina a 30°C", "No usar secadora"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar secadora"
+    ],
     "featured": false,
     "isNew": true,
     "isLimitedEdition": false,
@@ -195,16 +459,35 @@
     "name": "Gorra Stardead Logo",
     "description": "Gorra trucker con bordado frontal del logo 𖤐 Stardead. Malla trasera respirable. Cierre snapback ajustable. El accesorio que completa cualquier outfit.",
     "price": 12000,
-    "images": ["/images/products/gorra-logo-1.jpg", "/images/products/gorra-logo-2.jpg"],
+    "images": [
+      "/images/products/gorra-logo-1.jpg",
+      "/images/products/gorra-logo-2.jpg"
+    ],
     "category": "accesorios",
     "subcategory": "gorras",
     "variants": [
-      { "size": "Único", "color": "Negro", "stock": 15, "sku": "GL-NEG-U" },
-      { "size": "Único", "color": "Negro/Violeta", "stock": 8, "sku": "GL-VIO-U" }
+      {
+        "size": "Único",
+        "color": "Negro",
+        "stock": 15,
+        "sku": "GL-NEG-U"
+      },
+      {
+        "size": "Único",
+        "color": "Negro/Violeta",
+        "stock": 8,
+        "sku": "GL-VIO-U"
+      }
     ],
-    "tags": ["accesorio"],
+    "tags": [
+      "accesorio"
+    ],
     "composition": "Frente: Algodón. Malla: Poliéster.",
-    "care": ["Lavar a mano", "No sumergir", "Secar al aire"],
+    "care": [
+      "Lavar a mano",
+      "No sumergir",
+      "Secar al aire"
+    ],
     "featured": false,
     "isNew": false,
     "isLimitedEdition": false,
@@ -216,18 +499,49 @@
     "name": "Campera Bomber Eclipse",
     "description": "Bomber jacket con forro satinado y bordado 'Eclipse' en la espalda. Puños y cintura acanalados. Interior cálido sin exceso de peso. La campera insignia de Stardead.",
     "price": 48000,
-    "images": ["/images/products/bomber-eclipse-1.jpg", "/images/products/bomber-eclipse-2.jpg", "/images/products/bomber-eclipse-3.jpg"],
+    "images": [
+      "/images/products/bomber-eclipse-1.jpg",
+      "/images/products/bomber-eclipse-2.jpg",
+      "/images/products/bomber-eclipse-3.jpg"
+    ],
     "category": "camperas",
     "subcategory": "bomber",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 2, "sku": "BE-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 4, "sku": "BE-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 3, "sku": "BE-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 1, "sku": "BE-NEG-XL" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 2,
+        "sku": "BE-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 4,
+        "sku": "BE-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 3,
+        "sku": "BE-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 1,
+        "sku": "BE-NEG-XL"
+      }
     ],
-    "tags": ["premium", "edición limitada"],
+    "tags": [
+      "premium",
+      "edición limitada"
+    ],
     "composition": "Exterior: 100% Nylon. Forro: Poliéster satinado. Relleno: Fibra sintética.",
-    "care": ["Lavar a máquina en frío", "No usar secadora", "No planchar sobre el bordado"],
+    "care": [
+      "Lavar a máquina en frío",
+      "No usar secadora",
+      "No planchar sobre el bordado"
+    ],
     "featured": true,
     "isNew": false,
     "isLimitedEdition": true,
@@ -239,18 +553,45 @@
     "name": "Remera Binary Code",
     "description": "Remera manga larga con patrón de código binario impreso en las mangas. Corte regular, tela suave y resistente. Para los que hablan en ceros y unos.",
     "price": 17000,
-    "images": ["/images/products/binary-code-1.jpg", "/images/products/binary-code-2.jpg"],
+    "images": [
+      "/images/products/binary-code-1.jpg",
+      "/images/products/binary-code-2.jpg"
+    ],
     "category": "remeras",
     "subcategory": "manga-larga",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 7, "sku": "BC-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 11, "sku": "BC-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 9, "sku": "BC-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 5, "sku": "BC-NEG-XL" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 7,
+        "sku": "BC-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 11,
+        "sku": "BC-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 9,
+        "sku": "BC-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 5,
+        "sku": "BC-NEG-XL"
+      }
     ],
     "tags": [],
     "composition": "100% Algodón peinado 24/1",
-    "care": ["Lavar a máquina a 30°C", "No usar blanqueador", "Secar a la sombra"],
+    "care": [
+      "Lavar a máquina a 30°C",
+      "No usar blanqueador",
+      "Secar a la sombra"
+    ],
     "featured": false,
     "isNew": false,
     "isLimitedEdition": false,
@@ -262,20 +603,58 @@
     "name": "Short Urban Core",
     "description": "Short cargo de tela liviana con bolsillos laterales. Largo sobre la rodilla. Cintura elástica con cordón. Ideal para el streestyle de verano.",
     "price": 18000,
-    "images": ["/images/products/urban-core-1.jpg", "/images/products/urban-core-2.jpg"],
+    "images": [
+      "/images/products/urban-core-1.jpg",
+      "/images/products/urban-core-2.jpg"
+    ],
     "category": "pantalones",
     "subcategory": "shorts",
     "variants": [
-      { "size": "S", "color": "Negro", "stock": 6, "sku": "UC-NEG-S" },
-      { "size": "M", "color": "Negro", "stock": 9, "sku": "UC-NEG-M" },
-      { "size": "L", "color": "Negro", "stock": 7, "sku": "UC-NEG-L" },
-      { "size": "XL", "color": "Negro", "stock": 3, "sku": "UC-NEG-XL" },
-      { "size": "M", "color": "Beige", "stock": 4, "sku": "UC-BEI-M" },
-      { "size": "L", "color": "Beige", "stock": 3, "sku": "UC-BEI-L" }
+      {
+        "size": "S",
+        "color": "Negro",
+        "stock": 6,
+        "sku": "UC-NEG-S"
+      },
+      {
+        "size": "M",
+        "color": "Negro",
+        "stock": 9,
+        "sku": "UC-NEG-M"
+      },
+      {
+        "size": "L",
+        "color": "Negro",
+        "stock": 7,
+        "sku": "UC-NEG-L"
+      },
+      {
+        "size": "XL",
+        "color": "Negro",
+        "stock": 3,
+        "sku": "UC-NEG-XL"
+      },
+      {
+        "size": "M",
+        "color": "Beige",
+        "stock": 4,
+        "sku": "UC-BEI-M"
+      },
+      {
+        "size": "L",
+        "color": "Beige",
+        "stock": 3,
+        "sku": "UC-BEI-L"
+      }
     ],
-    "tags": ["nuevo"],
+    "tags": [
+      "nuevo"
+    ],
     "composition": "100% Algodón",
-    "care": ["Lavar a máquina a 40°C", "Se puede usar secadora"],
+    "care": [
+      "Lavar a máquina a 40°C",
+      "Se puede usar secadora"
+    ],
     "featured": false,
     "isNew": true,
     "isLimitedEdition": false,

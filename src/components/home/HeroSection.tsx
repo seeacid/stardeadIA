@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { Button } from '@/components/ui/Button';
 
 export default function HeroSection() {
     const heroRef = useRef<HTMLDivElement>(null);
@@ -99,25 +100,33 @@ export default function HeroSection() {
                 </p>
 
                 {/* CTAs */}
+
                 <div
                     className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up"
                     style={{ animationDelay: '800ms', animationFillMode: 'both' }}
                 >
-                    <Link
-                        href="/tienda"
-                        className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-gradient-brand text-white rounded-lg font-medium uppercase tracking-wider text-sm hover:opacity-90 transition-all glow-violet hover:scale-105 active:scale-95"
+                    <Button
+                        asChild
+                        size="lg"
+                        className="text-sm hover:scale-105 active:scale-95 transition-all duration-300"
                     >
-                        Explorar tienda
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <polyline points="9,18 15,12 9,6" />
-                        </svg>
-                    </Link>
-                    <Link
-                        href="/nosotros"
-                        className="inline-flex items-center justify-center gap-2 px-10 py-4 border border-border hover:border-accent-violet text-text-secondary hover:text-text-primary rounded-lg font-medium uppercase tracking-wider text-sm transition-all hover:scale-105 active:scale-95"
+                        <Link href="/tienda">
+                            Explorar tienda
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2">
+                                <polyline points="9,18 15,12 9,6" />
+                            </svg>
+                        </Link>
+                    </Button>
+                    <Button
+                        asChild
+                        variant="outline"
+                        size="lg"
+                        className="text-sm hover:scale-105 active:scale-95 transition-all duration-300"
                     >
-                        Conocé la marca
-                    </Link>
+                        <Link href="/nosotros">
+                            Conocé la marca
+                        </Link>
+                    </Button>
                 </div>
 
                 {/* Scroll Indicator */}

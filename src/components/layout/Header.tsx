@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useCart } from '@/context/CartContext';
 import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/Button';
 
 const navLinks = [
     { href: '/', label: 'Inicio' },
@@ -97,10 +98,16 @@ export default function Header() {
 
                         {/* Right Actions */}
                         <div className="flex items-center gap-3">
+                            import {Button} from '@/components/ui/Button';
+
+                            // ... inside component
+
                             {/* Cart Button */}
-                            <button
+                            <Button
+                                variant="ghost"
+                                size="icon"
                                 onClick={() => setIsCartOpen(!isCartOpen)}
-                                className="relative p-2 hover:bg-surface-raised rounded-lg transition-colors"
+                                className="relative hover:bg-surface-raised rounded-lg"
                                 aria-label={`Carrito (${itemCount} items)`}
                             >
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -113,7 +120,7 @@ export default function Header() {
                                         {itemCount}
                                     </span>
                                 )}
-                            </button>
+                            </Button>
 
                             {/* Mobile Menu Toggle */}
                             <button

@@ -7,7 +7,32 @@ import { getProductBySlug, getRelatedProducts } from '@/lib/products';
 import { useCart } from '@/context/CartContext';
 import { formatPrice, getDiscountPercentage, cn } from '@/lib/utils';
 import ProductCard from '@/components/product/ProductCard';
+import { type Metadata } from 'next';
 import { type ProductVariant } from '@/types';
+
+type Props = {
+    params: { slug: string };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const product = getProductBySlug(params.slug);
+
+    if (!product) {
+        return {
+            title: 'Producto no encontrado',
+        };
+    }
+
+    return {
+        title: product.name,
+        description: product.description.substring(0, 160),
+        openGraph: {
+            title: product.name,
+            description: product.description.substring(0, 160),
+            images: product.images.map((img) => ({ url: img })),
+        },
+    };
+}
 
 export default function ProductDetailPage() {
     const params = useParams();

@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useReducer, useEffect, useCallback } from 'react';
 import { type CartState, type CartAction, type CartItem, type Product, type ProductVariant } from '@/types';
+import { toast } from 'sonner';
 
 const CART_STORAGE_KEY = 'stardead-cart';
 
@@ -116,9 +117,15 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         }
     }, [state.items]);
 
+
+
+    // ... inside CartProvider
     const addItem = useCallback(
         (product: Product, variant: ProductVariant, quantity = 1) => {
             dispatch({ type: 'ADD_ITEM', payload: { product, variant, quantity } });
+            toast.success(`Agregado al carrito: ${product.name}`, {
+                description: `${variant.size} / ${variant.color}`,
+            });
         },
         []
     );

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { type Product } from '@/types';
+import { Button } from '@/components/ui/Button';
 import { formatPrice, getDiscountPercentage, getTotalStock } from '@/lib/utils';
 
 interface ProductCardProps {
@@ -25,8 +26,8 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
                 animationDelay: `${index * 100}ms`,
             }}
         >
-            <div className="card-3d-inner">
-                <div className="relative overflow-hidden rounded-xl bg-surface border border-border/50 hover:border-accent-violet/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent-violet/10">
+            <div className="card-3d-inner h-full">
+                <div className="relative overflow-hidden rounded-xl bg-surface border border-border/50 hover:border-accent-violet/50 transition-all duration-500 hover:shadow-[0_0_30px_rgba(139,92,246,0.15)] h-full flex flex-col group-hover:scale-[1.02]">
                     {/* Image Container */}
                     <div className="relative aspect-[3/4] bg-surface-raised overflow-hidden">
                         {/* Placeholder / Image */}
@@ -61,6 +62,11 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
                                     Limitada
                                 </span>
                             )}
+                            {product.tags.includes('trending') && (
+                                <span className="px-2.5 py-1 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold uppercase rounded tracking-wider flex items-center gap-1">
+                                    <span className="animate-pulse">🔥</span> Trending
+                                </span>
+                            )}
                         </div>
 
                         {/* Low Stock Indicator */}
@@ -74,9 +80,14 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
 
                         {/* Quick View Overlay */}
                         <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                            <span className="block w-full py-2.5 bg-accent-violet/90 hover:bg-accent-violet text-white text-center text-sm font-medium rounded-lg backdrop-blur-sm transition-colors">
+                            import {Button} from '@/components/ui/Button';
+
+                            // ... inside component
+                            <Button
+                                className="w-full bg-accent-violet/90 hover:bg-accent-violet backdrop-blur-sm"
+                            >
                                 Ver producto →
-                            </span>
+                            </Button>
                         </div>
                     </div>
 
