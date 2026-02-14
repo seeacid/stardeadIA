@@ -98,9 +98,6 @@ export default function Header() {
 
                         {/* Right Actions */}
                         <div className="flex items-center gap-3">
-                            import {Button} from '@/components/ui/Button';
-
-                            // ... inside component
 
                             {/* Cart Button */}
                             <Button
